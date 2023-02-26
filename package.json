@@ -1,0 +1,27 @@
+{
+  "name": "datmanh-new-component",
+  "version": "0.0.2",
+  "description": "This is demo component publish into NPM by Rollup Bundler",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Manh Dat",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "8.3.3",
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "rollup": "^2.60.0",
+    "rollup-plugin-dts": "^4.0.1",
+    "tslib": "^2.5.0",
+    "typescript": "^4.4.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
